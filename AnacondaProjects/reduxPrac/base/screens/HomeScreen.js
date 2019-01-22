@@ -6,8 +6,6 @@ import {
   View,
 } from 'react-native';
 
-import { MonoText } from '../components/StyledText';
-
 export default class HomeScreen extends React.Component {
     static navigationOptions = {
         header: null,
@@ -19,7 +17,7 @@ export default class HomeScreen extends React.Component {
                 <View style={styles.tabBarInfoContainer}>
                     <Text style={styles.tabBarInfoText}>tab-bar</Text>
                     <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
-                        <MonoText style={styles.codeHighlightText}>MainTabNavigator.js</MonoText>
+                        <Text style={styles.codeHighlightText}>MainTabNavigator.js</Text>
                     </View>
                 </View>
             </View>
